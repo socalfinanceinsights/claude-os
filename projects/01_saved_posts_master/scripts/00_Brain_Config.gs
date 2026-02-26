@@ -617,7 +617,7 @@ function getMillionDollarPrompt(platform, url) {
     
     FIELDS TO EXTRACT:
     - title: The actual headline/title of the content.
-    - author: The Reddit username (e.g. "HuntingSpoon"), YouTube channel name, or original content creator. Look for "by [username]", "u/[username]", or "submitted by" patterns. NEVER return "Anonymous Reddit User" or "Mark Lucas".
+    - author: The Reddit username (e.g. "HuntingSpoon"), YouTube channel name, or original content creator. Look for "by [username]", "u/[username]", or "submitted by" patterns. NEVER return "Anonymous Reddit User" or "YOUR_NAME".
     - post_date: The date the content was ORIGINALLY PUBLISHED (format: MM.DD.YYYY). 
       * Hunt for publishing labels or timestamps.
       * Use the REFERENCE DATE (${refDate}) to calculate the exact date if relative.
