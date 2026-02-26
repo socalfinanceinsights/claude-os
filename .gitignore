@@ -1,0 +1,9 @@
+*.html
+*.xml
+token.json
+credentials.json
+creds*.json
+*.pyc
+__pycache__/
+node_modules/
+.env
