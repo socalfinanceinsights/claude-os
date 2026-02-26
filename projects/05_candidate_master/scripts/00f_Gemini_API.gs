@@ -69,7 +69,7 @@ IMPORTANT:
 - Return ONLY the JSON object, no explanation or markdown
 
 CRITICAL RULES (DO NOT HALLUCINATE):
-- LOCATION: Only extract location if the candidate's city/region is EXPLICITLY stated in the notes or RAW LOCATION field. Do NOT infer location from recruiter signatures, area codes (949, 858, etc.), company addresses, or "Alliance Resource Group". If no candidate location is explicitly mentioned, return null.
+- LOCATION: Only extract location if the candidate's city/region is EXPLICITLY stated in the notes or RAW LOCATION field. Do NOT infer location from recruiter signatures, area codes (949, 858, etc.), company addresses, or "Your Company Name". If no candidate location is explicitly mentioned, return null.
 - COMP: Only extract comp_target if a dollar amount or salary figure is EXPLICITLY tied to the candidate's compensation expectations, current salary, or offer amount. Do NOT extract comp from job listing salary ranges, role descriptions, or unrelated dollar amounts. If unclear who the comp belongs to, return null.
 - When in doubt, return null. False data is worse than missing data.`;
 

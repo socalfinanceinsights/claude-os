@@ -56,7 +56,7 @@ function parsePhoneFromNote(noteBody) {
 
   // Phone number patterns (US format)
   const phonePatterns = [
-    /\b\d{3}[-.]?\d{3}[-.]?\d{4}\b/,           // 949-428-0664 or 9494280664
+    /\b\d{3}[-.]?\d{3}[-.]?\d{4}\b/,           // 555-555-5555 or 5555555555
     /\(\d{3}\)\s?\d{3}[-.]?\d{4}/,             // (949) 428-0664
     /\b\d{3}\s\d{3}\s\d{4}\b/                  // 949 428 0664
   ];
